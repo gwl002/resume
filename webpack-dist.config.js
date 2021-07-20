@@ -7,7 +7,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const EndWebpackPlugin = require('end-webpack-plugin');
 const { WebPlugin } = require('web-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const puppeteer = require("puppeteer");
 
 const outputPath = path.resolve(__dirname, 'docs');
 module.exports = {
